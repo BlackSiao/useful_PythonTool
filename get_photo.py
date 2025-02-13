@@ -30,7 +30,7 @@ def GetImg(html):
             imglist.append(urljoin(url, imgurl))  # 处理相对路径
 
     # 如果图片下载目录不存在，则创建
-    download_dir = 'D:\BlackSiao\python\learn_env\photos'
+    download_dir = 'D:\photos'
     if not os.path.exists(download_dir):
         os.makedirs(download_dir)
 
