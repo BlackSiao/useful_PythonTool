@@ -20,7 +20,7 @@ wd.get(url)
 elements = wd.find_elements(By.CSS_SELECTOR, '.BDE_Image')
 
 # 确保目标保存路径存在
-save_dir = r'D:\BlackSiao\python\photos'
+save_dir = r'D:\photos'
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
